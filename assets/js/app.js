@@ -1,0 +1,1 @@
+"use strict";function _toConsumableArray(r){if(Array.isArray(r)){for(var e=0,n=Array(r.length);e<r.length;e++)n[e]=r[e];return n}return Array.from(r)}[].concat(_toConsumableArray(document.querySelectorAll('input[name="receiver"]'))).map(function(r,e){r.addEventListener("click",function(r){console.log(this.value)})});
